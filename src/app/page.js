@@ -1,13 +1,16 @@
 import './globals.css'
+import HeroComponent from './Components/HeroComponent'
+import Header from './Components/Header'
 
 
 export default function Page() {
     return (
         <>
             <main>
-                <div className='font-inter text-7xl font-semibold'>
-                    This is a test
-                </div>
+                <Header />
+                <HeroComponent />
+                
+                
             </main>
         </>
     )
