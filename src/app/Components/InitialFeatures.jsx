@@ -68,9 +68,9 @@ const featuresData = [
 
 export default function Features() {
     return (
-      <div className="bg-[#e9eefa] py-16">
+      <div className="bg-[#e9eefa] pb-16">
 
-        <div className='flex flex-col items-center justify-center gap-y-10 pb-20'>
+        <div className='flex flex-col items-center justify-center gap-y-10 pb-20 bg-[#f6f7fc] pt-16'>
             <div className="text-center text-lg font-inter text-slate-600">Trusted by thousands of schools and <b>millions</b> of students.</div>
 
             <div className="h-20 flex justify-center items-center w-full gap-x-10">
@@ -91,9 +91,9 @@ export default function Features() {
             </div>
         </div>
 
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto pt-10">
           <div className="text-center">
-              <h2 className="text-5xl font-semibold mb-2 tracking-tight font-archivo">Volunteering Made Easy.</h2>
+              <h2 className="text-5xl font-semibold mb-2 font-archivo">Why We Rule.</h2>
               <p className="text-md text-gray-600 mb-12 font-archivo">
               Stella offers a variety of features to <br /> turbo-charge the volunteering process.
               </p>
