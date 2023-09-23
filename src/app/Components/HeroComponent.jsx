@@ -3,7 +3,7 @@
 export default function HeroComponent() {
     return (
         <>
-        <div className="bg-[#e9eefa] py-16 px-4 sm:px-6 lg:px-8">
+        <div className="bg-gradient-to-b from-[#e9eefa] from-60% border-b-2 border-red-500 to-white py-16 px-4 sm:px-6 lg:px-8">
             <div className="max-w-7xl mx-auto text-center flex flex-col items-center justify-center mb-40 gap-y-2">
 
                 <div>
@@ -25,11 +25,8 @@ export default function HeroComponent() {
                 </button>
                 <p className="mt-3 text-xs font-inter">No Payment required*</p>
             </div>
-            <img
-                src="https://www.figma.com/file/em0PnNFFrGPpdk9YEGEHVQ/Dashboard%2C-android-filter-(Community)?type=design&node-id=1326-9&mode=design&t=jh3cvQ05m3AfVDHk-4" 
-                alt="Mock Dashboard of the software"
-                className="w-64 h-64" 
-            />
+
+
         </div>
         </>
     )
