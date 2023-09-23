@@ -56,7 +56,7 @@ export default function ApplicationFeature1() {
 
                     <div className="lg:w-1/2 flex flex-col justify-center gap-y-4 pl-8">
                         <div className="font-archivo text-medium text-5xl flex flex-col gap-y-2">
-                            <div className='bg-gradient-to-bl from-yellow-500 to-orange-300  w-max p-2 rounded-lg'>
+                            <div className='bg-gradient-to-b from-yellow-500 to-orange-600  w-max p-2 rounded-lg'>
                                 <FaSearch className='h-5 w-5 text-white '/>
                             </div>
                             A Powerful Search & Filtering System
