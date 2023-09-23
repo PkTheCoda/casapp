@@ -1,6 +1,8 @@
 "use client"
 
 import React from "react";
+import Image from "next/image";
+
 import {
     FaHandsHelping,
     FaBuilding,
@@ -18,6 +20,10 @@ const colorClasses = {
     purple: "hover:border-purple-400",
     pink: "hover:border-pink-400",
 };
+
+import ibdpprogramlogo from '../Images/ibdpprogramlogo.png'
+import ibmyplogopic from '../Images/ibmyplogopic.png'
+import ibprogramfulllogo from '../Images/ibprogramfulllogo.png'
   
 
 
@@ -63,14 +69,36 @@ const featuresData = [
 export default function Features() {
     return (
       <div className="bg-[#e9eefa] py-16">
+
+        <div className='flex flex-col items-center justify-center gap-y-10 pb-20'>
+            <div className="text-center text-lg font-inter text-slate-600">Trusted by thousands of schools and <b>millions</b> of students.</div>
+
+            <div className="h-20 flex justify-center items-center w-full gap-x-10">
+                <Image 
+                    src={ibdpprogramlogo}
+                    className="h-20 w-auto"
+                />
+
+                <Image 
+                    src={ibmyplogopic}
+                    className="h-20 w-auto"
+                />
+
+                <Image 
+                    src={ibprogramfulllogo}
+                    className="h-20 w-auto"
+                />
+            </div>
+        </div>
+
         <div className="max-w-7xl mx-auto">
           <div className="text-center">
-              <h2 className="text-5xl font-semibold mb-2 tracking-tight font-inter">Find <span className="underline">your</span> best fit.</h2>
-              <p className="text-md text-gray-600 mb-12 font-inter">
+              <h2 className="text-5xl font-semibold mb-2 tracking-tight font-archivo">Volunteering Made Easy.</h2>
+              <p className="text-md text-gray-600 mb-12 font-archivo">
               Stella offers a variety of features to <br /> turbo-charge the volunteering process.
               </p>
           </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-15">
             {featuresData.map((feature, index) => (
               <div
                 key={index}
@@ -79,7 +107,7 @@ export default function Features() {
                 <div className="text-3xl mb-4 text-blue-500 bg-blue-100 p-4 w-max rounded-full">
                   {feature.icon}
                 </div>
-                <h3 className="text-xl mb-2 font-outfit">
+                <h3 className="text-xl mb-2 font-archivo font-medium">
                   {feature.title}
                 </h3>
                 <p className="text-gray-600 font-inter">

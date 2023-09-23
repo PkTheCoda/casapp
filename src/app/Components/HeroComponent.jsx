@@ -5,7 +5,7 @@ import dashboard from '../Images/dashboardother.svg'
 export default function HeroComponent() {
     return (
         <>
-        <div className="bg-gradient-to-b from-[#e9eefa] from-60% to-white py-16 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
+        <div className="bg-[#e9eefa] pt-16 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center">
             <div className="max-w-7xl mx-auto text-center flex flex-col items-center justify-center gap-y-2 relative">
 
                 <div>
@@ -30,12 +30,14 @@ export default function HeroComponent() {
                 </div>
             </div>
 
-            <Image 
-                src={dashboard}
-                className='w-auto h-auto'
-                alt="Test"
-            />
+        </div>
 
+        <div className='bg-gradient-to-b from-[#e9eefa] via-white via-70% to-white flex flex-col items-center'>
+            <Image 
+                    src={dashboard}
+                    className='w-auto h-auto t-0'
+                    alt="Test"
+            />
         </div>
         </>
     )

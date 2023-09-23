@@ -9,7 +9,9 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: ['var(--font-inter)'],
-        outfit: ['var(--font-outfit)']
+        outfit: ['var(--font-outfit)'],
+        archivo: ['var(--font-archivo)']
+
       }
     },
   },
