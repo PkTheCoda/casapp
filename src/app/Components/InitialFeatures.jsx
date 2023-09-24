@@ -49,52 +49,53 @@ const featuresData = [
   {
     icon: <FaHandsHelping />,
     title: "Find Volunteer Opportunities",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    subtitle: "Discover a wide range of volunteering options tailored to your interests and location, making it easier than ever to give back to your community.",
     color: 'blue'
   },
   {
     icon: <FaBuilding />,
     title: "Connect with Local Businesses",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    subtitle: "Build valuable connections with businesses in your area that are actively seeking volunteers to support their initiatives, creating opportunities for meaningful collaboration.",
     color: 'red'
   },
   {
     icon: <FaGraduationCap />,
     title: "Streamline Your CAS Experience",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    subtitle: "Simplify your CAS service component by quickly finding and applying for volunteer opportunities that align with your academic goals and IB requirements.",
     color: 'yellow'
   },
   {
     icon: <FaBusinessTime />,
     title: "Businesses and Schools Unite",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    subtitle: "Bridge the gap between businesses seeking help and IB schools with motivated students ready to volunteer, fostering partnerships that benefit both sides.",
     color: 'green'
   },
   {
     icon: <FaLightbulb />,
     title: "Create Your Own Initiatives",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    subtitle: "Empower students to take initiative by proposing their own volunteer projects, giving them the freedom to make a positive impact in their community.",
     color: 'purple'
   },
   {
     icon: <FaClipboardCheck />,
     title: "Effortless Application Process",
-    subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
+    subtitle: "Apply to volunteer opportunities with ease and track your applications conveniently, streamlining your journey toward making a difference.",
     color: 'pink'
   },
 ];
 
+
 export default function Features() {
     return (
-      <div className="bg-[#f7f7f7] pb-16">
+      <div className="bg-white pb-16 relative">
 
 
         <div className="max-w-7xl mx-auto pt-20">
           <div className="text-center">
 
-            <p class="font-bold text-5xl font-archivo">
+            <p class="font-medium tracking-tight text-6xl font-inter">
                 Packed &
-                <span class="text-blue-500 mx-1 font-semibold text-5xl relative inline-block stroke-current">
+                <span class="text-blue-500 mx-1 font-semibold text-6xl pl-2 relative inline-block stroke-current">
                     Full of Features
                     <svg class="absolute -bottom-0.5 w-full max-h-1.5" viewBox="0 0 55 5" xmlns="http://www.w3.org/2000/svg"
                         preserveAspectRatio="none">
@@ -113,7 +114,7 @@ export default function Features() {
             {featuresData.map((feature, index) => (
               <div
                 key={index}
-                className={`bg-white px-6 py-6 rounded-xl border-2 border-transparent transition duration-500 ${colorClasses[feature.color]}`}
+                className={`bg-[#f6f6f6] transform hover:scale-105 px-6 py-6 rounded-xl border-2 border-transparent transition duration-300 ${colorClasses[feature.color]}`}
               >
                 <div className={`text-3xl mb-4 ${colorTextClasses[feature.color]} ${colorFillClasses[feature.color]} p-4 w-max rounded-full`}>
                   {feature.icon}
@@ -121,13 +122,17 @@ export default function Features() {
                 <h3 className="text-xl mb-2 font-archivo font-medium">
                   {feature.title}
                 </h3>
-                <p className="text-gray-600 text-base font-archivo">
+                <p className="text-gray-600 text-base font-outfit">
                   {feature.subtitle}
                 </p>
               </div>
             ))}
           </div>
         </div>
+
+
       </div>
+
+      
     );
   }

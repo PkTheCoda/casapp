@@ -2,3 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+    .main-gradient {
+        @apply bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-purple-500 via-sky-500 to-blue-700 text-transparent inline bg-clip-text
+    }
+}
