@@ -10,7 +10,8 @@ module.exports = {
       fontFamily: {
         inter: ['var(--font-inter)'],
         outfit: ['var(--font-outfit)'],
-        archivo: ['var(--font-archivo)']
+        archivo: ['var(--font-archivo)'],
+        manrope: ['var(--font-manrope)']
 
       }
     },

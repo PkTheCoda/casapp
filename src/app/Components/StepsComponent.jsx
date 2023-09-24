@@ -5,7 +5,6 @@ import 'tailwindcss/tailwind.css';
 const StepsComponent = () => {
   return (
     <>
-      <div>Hi</div>
     </>
   );
 };

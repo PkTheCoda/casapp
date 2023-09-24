@@ -93,21 +93,14 @@ export default function Features() {
         <div className="max-w-7xl mx-auto pt-20">
           <div className="text-center">
 
-            <p class="font-medium tracking-tight text-6xl font-inter">
+            <p class="tracking-tight text-6xl font-manrope font-extrabold">
                 Packed &
-                <span class="text-blue-500 mx-1 font-semibold text-6xl pl-2 relative inline-block stroke-current">
-                    Full of Features
-                    <svg class="absolute -bottom-0.5 w-full max-h-1.5" viewBox="0 0 55 5" xmlns="http://www.w3.org/2000/svg"
-                        preserveAspectRatio="none">
-                        <path d="M0.652466 4.00002C15.8925 2.66668 48.0351 0.400018 54.6853 2.00002" stroke-width="2"></path>
-                    </svg>
-                </span>  
+                <h1><span class="highlight-container"><span class="highlight">Full of</span></span> Features</h1> 
             </p>
-            <p className="text-md text-gray-600 mb-12 font-archivo pt-4">
+            <p className="text-md text-gray-600 mb-12 font-archivo pt-4 ">
               Stella offers a variety of features to <br /> turbo-charge the volunteering process.
               </p>
           </div>
-
           
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mx-15">

@@ -5,22 +5,18 @@ import dashboard from '../Images/dashboardother.svg'
 export default function HeroComponent() {
     return (
         <>
-            <div className='pb-20 relative'>
-                <div className="bg-[#e9eefa] pt-16 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center z-40">
+            <div className='pb-20 relative square-pattern '>
+                <div className="pt-16 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center z-40 bg-transparent">
                     <div className="max-w-7xl mx-auto text-center flex flex-col items-center justify-center gap-y-2 relative">
 
                         <div>
-                            <h1 className="text-4xl font-[600] font-inter tracking-tight text-gray-900 sm:text-7xl">
-                                Volunteer opportunities 
-                            </h1>
-
-                            <h1 className="mt-4 text-4xl font-[600] font-inter tracking-tight text-gray-900 sm:text-7xl">
-                                made <span className="bg-yellow-400 rounded-xl mt-10 px-2">accessible.</span>
+                            <h1 className="text-4xl font-extrabold font-manrope tracking-tighter text-black sm:text-6xl">
+                                Stella makes finding volunteer <br/> opportunities <span className='main-gradient'>easy and accessible</span>
                             </h1>
                         </div>
 
                         <p className="mt-6 text-lg leading-8 font-inter">
-                        Find the perfect volunteer opportunities in <b>minutes, not days.</b> <br /> The ultimate site for finding and getting volunteer hours.
+                        Find the perfect volunteer opportunities in <b className='main-gradient'>minutes, not days.</b> <br /> The ultimate site for finding and getting volunteer hours.
                         </p>
 
                         <div>
@@ -55,7 +51,7 @@ export default function HeroComponent() {
 
                 </div>
 
-                <div className='bg-gradient-to-b from-[#e9eefa] via-white via-70% to-white flex flex-col items-center'>
+                <div className='flex flex-col items-center'>
                     <Image 
                             src={dashboard}
                             className='w-auto h-auto t-0'
