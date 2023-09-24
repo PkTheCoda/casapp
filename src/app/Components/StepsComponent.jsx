@@ -1,3 +1,5 @@
+"use client"
+
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa'; // You can import other icons as needed
 import 'tailwindcss/tailwind.css';

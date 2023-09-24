@@ -1,3 +1,5 @@
+"use client"
+
 import applications from '../Images/applications.svg'
 import search from '../Images/search.svg'
 import Image from 'next/image'
