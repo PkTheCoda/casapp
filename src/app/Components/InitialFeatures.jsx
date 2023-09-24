@@ -93,10 +93,16 @@ export default function Features() {
         <div className="max-w-7xl mx-auto pt-20">
           <div className="text-center">
 
-            <p class="tracking-tight text-6xl font-manrope font-extrabold">
+            <div class="tracking-tight text-6xl font-manrope font-extrabold">
                 Packed &
-                <h1><span class="highlight-container"><span class="highlight">Full of Features</span></span></h1> 
-            </p>
+                <div>
+                  <span class="highlight-container">
+                    <span class="highlight">
+                      Full of Features
+                    </span>
+                  </span>
+                </div> 
+            </div>
             <p className="text-md text-gray-600 mb-12 font-archivo pt-4 ">
               Stella offers a variety of features to <br /> turbo-charge the volunteering process.
               </p>

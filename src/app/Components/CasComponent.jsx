@@ -13,7 +13,7 @@ export default function CasComponent() {
                     <span className="main-gradient block">a breeze.</span>
                 </div>
 
-                <div className="h-max flex items-center justify-center px-40 gap-x-20 my-10">
+                <div className="h-max flex items-center justify-center px-10 lg:px-40 gap-x-20 my-10">
                     <div className="bg-blue-300 rounded-xl w-2/5 py-10 flex flex-col items-center h-max meshgradientbluepurple gap-y-4">
                         <Image 
                             src={casvector1}

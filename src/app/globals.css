@@ -9,7 +9,12 @@
 
     .meshgradientbluepurple {
         @apply bg-[#ff99d1] bg-[radial-gradient(at_58%_40%,hsla(246,77%,77%,1)_0px,transparent_50%),radial-gradient(at_19%_5%,hsla(228,90%,69%,1)_0px,transparent_50%),radial-gradient(at_25%_2%,hsla(154,87%,74%,1)_0px,transparent_50%),radial-gradient(at_28%_52%,hsla(192,74%,79%,1)_0px,transparent_50%),radial-gradient(at_33%_93%,hsla(237,82%,72%,1)_0px,transparent_50%),radial-gradient(at_41%_75%,hsla(219,84%,74%,1)_0px,transparent_50%),radial-gradient(at_8%_79%,hsla(276,75%,67%,1)_0px,transparent_50%)];
-      }
+    }
+
+    .ctabutton {
+      @apply bg-[400%_400%] animate-[gradient_15s_ease_infinite];
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    }
 }
 
 .dotted {
@@ -51,5 +56,17 @@
     left: -1px;
     border-radius: 20% 25% 20% 24%;
     padding: 10px 3px 3px 10px;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
   

@@ -5,6 +5,7 @@ import InitialFeatures from './Components/InitialFeatures'
 import ApplicationFeature1 from './Components/ApplicationFeature1'
 import StepsComponent from './Components/StepsComponent'
 import CasComponent from './Components/CasComponent'
+import CallToAction from './Components/CallToAction'
 
 
 export default function Page() {
@@ -17,6 +18,7 @@ export default function Page() {
                 <ApplicationFeature1 />
                 <StepsComponent />
                 <CasComponent />
+                <CallToAction />
                 
                 
             </main>
