@@ -53,7 +53,7 @@ export default function CallToAction() {
                         type="submit"
                         class="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-blue-500 font-inter px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-blue-400 sm:mt-0 sm:w-auto"
                     >
-                    <span class="text-sm font-medium"> Sign Up </span>
+                    <span class="text-sm font-medium">Sign Up</span>
 
                         <svg
                             class="h-5 w-5 rtl:rotate-180"

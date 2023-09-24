@@ -35,7 +35,7 @@ export default function CasComponent() {
                             </div>
 
                             <div className='font-inter text-white'>
-                                We make the service component of your CAS easier than ever. With our intuitive dashboard, you're able to organize and see all your applications in one place.   
+                                We make the service component of your CAS easier than ever. With our intuitive dashboard, you are able to organize and see all your applications in one place.   
                             </div>
 
                             <button className="px-6 py-3 w-max bg-black font-outfit transition transform hover:scale-110 text-white rounded-full">
