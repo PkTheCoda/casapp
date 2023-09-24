@@ -95,7 +95,7 @@ export default function Features() {
 
             <p class="tracking-tight text-6xl font-manrope font-extrabold">
                 Packed &
-                <h1><span class="highlight-container"><span class="highlight">Full of</span></span> Features</h1> 
+                <h1><span class="highlight-container"><span class="highlight">Full of Features</span></span></h1> 
             </p>
             <p className="text-md text-gray-600 mb-12 font-archivo pt-4 ">
               Stella offers a variety of features to <br /> turbo-charge the volunteering process.
