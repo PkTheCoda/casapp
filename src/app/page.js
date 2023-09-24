@@ -5,6 +5,7 @@ import InitialFeatures from './Components/InitialFeatures'
 import TrustedBy from './Components/TrustedBy'
 import ApplicationFeature1 from './Components/ApplicationFeature1'
 import BetterCas from './Components/Bettercas'
+import StepsComponent from './Components/StepsComponent'
 
 
 export default function Page() {
@@ -17,6 +18,7 @@ export default function Page() {
                 {/* <TrustedBy /> */}
                 <ApplicationFeature1 />
                 <BetterCas />
+                <StepsComponent />
                 
                 
             </main>

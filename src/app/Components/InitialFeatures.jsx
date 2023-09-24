@@ -86,7 +86,7 @@ const featuresData = [
 
 export default function Features() {
     return (
-      <div className="bg-[#e9eefa] pb-16">
+      <div className="bg-[#f7f7f7] pb-16">
 
 
         <div className="max-w-7xl mx-auto pt-20">
@@ -121,7 +121,7 @@ export default function Features() {
                 <h3 className="text-xl mb-2 font-archivo font-medium">
                   {feature.title}
                 </h3>
-                <p className="text-gray-600 text-base font-inter">
+                <p className="text-gray-600 text-base font-archivo">
                   {feature.subtitle}
                 </p>
               </div>

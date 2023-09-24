@@ -22,11 +22,11 @@ export default function ApplicationFeature1() {
             </div>
                 <div className="w-[70%] h-max flex flex-col lg:flex-row">
                     <div className="lg:w-1/2 flex flex-col justify-center gap-y-2 ">
-                        <div className="font-archivo text-medium text-5xl flex flex-col gap-y-2">
+                        <div className="font-archivo text-medium text-5xl flex flex-col gap-y-2 font-semibold">
                             <div className='bg-gradient-to-bl from-green-300 to-blue-500  w-max p-2 rounded-lg'>
                                 <FaFilter className='h-5 w-5 text-white '/>
                             </div>
-                            One Massive, <br/> Filterable, and <br />Convenient Database.
+                            One Massive, <br/> Filterable Database.
                         </div>
                         <p>
                             Stella allows you to effortlessly navigate our extensive volunteer opportunities database, helping you discover the ideal match for your interests and goals.
@@ -50,12 +50,12 @@ export default function ApplicationFeature1() {
                     <div className='lg:w-1/2 flex items-center'>
                         <Image 
                             src={search}
-                            className='w-max h-auto p-4'
+                            className='w-max h-auto p-8'
                         />
                     </div>
 
                     <div className="lg:w-1/2 flex flex-col justify-center gap-y-4 pl-8">
-                        <div className="font-archivo text-medium text-5xl flex flex-col gap-y-2">
+                        <div className="font-archivo text-medium text-5xl flex flex-col gap-y-2 font-semibold">
                             <div className='bg-gradient-to-b from-yellow-500 to-orange-600  w-max p-2 rounded-lg'>
                                 <FaSearch className='h-5 w-5 text-white '/>
                             </div>
@@ -70,6 +70,8 @@ export default function ApplicationFeature1() {
                     </div>
                 </div>
             </div>
+
+            
 
 
         </>

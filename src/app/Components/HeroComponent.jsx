@@ -24,9 +24,31 @@ export default function HeroComponent() {
                         </p>
 
                         <div>
-                            <button className="z-[999] px-6 py-3 z- bg-black font-inter transition transform hover:scale-110 mt-4 text-white rounded-lg">
-                                Start Volunteering
-                            </button>
+                            <a
+                                class="group relative inline-flex items-center overflow-hidden rounded-lg bg-black px-6 py-3 text-white focus:outline-none focus:ring active:bg-indigo-500"
+                                href="/download"
+                                >
+                                <span class="absolute -start-full transition-all group-hover:start-4">
+                                    <svg
+                                    class="h-5 w-5 rtl:rotate-180"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                    >
+                                    <path
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                        stroke-width="2"
+                                        d="M17 8l4 4m0 0l-4 4m4-4H3"
+                                    />
+                                    </svg>
+                                </span>
+
+                                <span class="font-inter transition-all group-hover:ms-4">
+                                    Start Volunteering
+                                </span>
+                            </a>
                             <p className="mt-3 text-xs font-inter">No Payment required*</p>
                         </div>
                     </div>
