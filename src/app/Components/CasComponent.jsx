@@ -13,8 +13,8 @@ export default function CasComponent() {
                     <span className="main-gradient block">a breeze.</span>
                 </div>
 
-                <div className="h-max flex items-center justify-center px-10 lg:px-40 gap-x-20 my-10">
-                    <div className="bg-blue-300 rounded-xl w-2/5 py-10 flex flex-col items-center h-max meshgradientbluepurple gap-y-4">
+                <div className="h-max flex flex-col md:flex-row md:gap-y-0 gap-y-8 items-center justify-center px-10 xl:px-40 gap-x-6 xl:gap-x-20 my-10">
+                    <div className="bg-blue-300 rounded-xl w-full md:w-1/2 lg:w-2/5 py-10 flex flex-col items-center h-max meshgradientbluepurple gap-y-4">
                         <Image 
                             src={casvector1}
                             className='w-4/5 h-auto rounded-lg'
@@ -45,7 +45,7 @@ export default function CasComponent() {
                         </div>
                     </div>
 
-                    <div className="bg-blue-300 rounded-xl w-2/5 py-12 flex flex-col items-center h-max meshgradientbluepurple gap-y-4">
+                    <div className="bg-blue-300 rounded-xl w-full md:w-1/2 lg:w-2/5 py-12 flex flex-col items-center h-max meshgradientbluepurple gap-y-4">
                         <Image 
                             src={casvector2}
                             className='w-4/5 h-auto rounded-lg'
