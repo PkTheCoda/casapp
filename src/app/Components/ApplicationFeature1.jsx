@@ -26,15 +26,15 @@ export default function ApplicationFeature1() {
                             }}
                         />
                     </div >
-                    <div className="w-[70%] h-max flex flex-col lg:flex-row relative">
-                        <div className="lg:w-1/2 flex flex-col justify-center gap-y-2 ">
+                    <div className="w-full md:w-[70%] h-max flex flex-col lg:flex-row relative">
+                        <div className="lg:w-1/2 flex flex-col justify-center gap-y-2 pl-8">
                             <div className="font-manrope text-5xl flex flex-col gap-y-2 font-extrabold">
                                 <div className='bg-gradient-to-bl from-green-300 to-blue-500  w-max p-2 rounded-lg'>
                                     <FaFilter className='h-5 w-5 text-white '/>
                                 </div>
                                 <div>One <span className="main-gradient">Massive,</span> <br/> Filterable Database.</div>
                             </div>
-                            <p className='font-manrope'>
+                            <p className='font-inter pr-8 md:pr-0'>
                                 Stella allows you to effortlessly navigate our extensive volunteer opportunities database, helping you discover the ideal match for your interests and goals.
                             </p>
                             <button className="px-6 py-3 w-max bg-gradient-to-br from-blue-300 via-blue-500 to-sky-300 font-outfit transition transform hover:scale-110 mt-4 text-white rounded-full">
@@ -51,7 +51,7 @@ export default function ApplicationFeature1() {
                     </div>
                 </div>
                 <div className="py-20 flex justify-center items-center ">
-                    <div className="w-[70%] h-max flex-col lg:flex-row flex relative">
+                    <div className="w-full md:w-[70%] h-max flex-col lg:flex-row flex relative">
                 
                         <div className='lg:w-1/2 flex items-center'>
                             <Image
@@ -61,13 +61,13 @@ export default function ApplicationFeature1() {
                             />
                         </div>
                         <div className="lg:w-1/2 flex flex-col justify-center gap-y-4 pl-8">
-                            <div className="font-manrope text-5xl flex flex-col gap-y-2 font-extrabold">
+                            <div className="font-manrope text-3xl md:text-4xl lg:text-5xl flex flex-col gap-y-2 font-extrabold">
                                 <div className='bg-gradient-to-b from-yellow-500 to-orange-600  w-max p-2 rounded-lg'>
                                     <FaSearch className='h-5 w-5 text-white '/>
                                 </div>
                                 <div>A <span className='bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-yellow-500 via-red-400 to-orange-500 text-transparent inline bg-clip-text'>Powerful Search</span> & Filtering System</div>
                             </div>
-                            <p className='font-manrope'>
+                            <p className='font-inter pr-8 md:pr-0'>
                                 Stella allows you to effortlessly navigate our extensive volunteer opportunities database, helping you discover the ideal match for your interests and goals.
                             </p>
                             <button className="px-6 py-3 w-max bg-gradient-to-br from-red-300 via-red-500 to-orange-300 font-outfit transition transform hover:scale-110 mt-4 text-white rounded-full">

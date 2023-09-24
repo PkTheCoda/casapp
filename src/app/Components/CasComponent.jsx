@@ -9,7 +9,7 @@ export default function CasComponent() {
     return (
         <>
             <div>
-                <div className="font-manrope text-6xl text-center font-extrabold mt-10">Make CAS and IB 
+                <div className="font-manrope text-4xl md:text-5xl lg:text-6xl text-center font-extrabold mt-10">Make CAS and IB 
                     <span className="main-gradient block">a breeze.</span>
                 </div>
 

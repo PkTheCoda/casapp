@@ -109,7 +109,7 @@ export default function Features() {
             {featuresData.map((feature, index) => (
               <div
                 key={index}
-                className={`bg-[#f6f6f6] transform hover:scale-105 px-6 py-6 rounded-xl border-2 border-transparent transition duration-300 ${colorClasses[feature.color]}`}
+                className={`bg-[#f6f6f6] transform hover:scale-105 px-6 py-6 mx-4 rounded-xl border-2 border-transparent transition duration-300 ${colorClasses[feature.color]}`}
               >
                 <div className={`text-3xl mb-4 ${colorTextClasses[feature.color]} ${colorFillClasses[feature.color]} p-4 w-max rounded-full`}>
                   {feature.icon}
