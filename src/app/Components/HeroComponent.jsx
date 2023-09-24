@@ -10,12 +10,12 @@ export default function HeroComponent() {
                     <div className="max-w-7xl mx-auto text-center flex flex-col items-center justify-center gap-y-2 relative">
 
                         <div>
-                            <h1 className="text-4xl font-extrabold font-manrope tracking-tighter text-black sm:text-6xl">
+                            <h1 className="text-4xl font-extrabold font-manrope tracking-tighter text-black md:text-6xl">
                                 Stella makes finding volunteer <br/> opportunities <span className='main-gradient'>easy and accessible</span>
                             </h1>
                         </div>
 
-                        <p className="mt-6 text-lg leading-8 font-inter">
+                        <p className="md:mt-6 text-base md:text-lg leading-8 font-inter">
                         Find the perfect volunteer opportunities in <b className='main-gradient'>minutes, not days.</b> <br /> The ultimate site for finding and getting volunteer hours.
                         </p>
 
@@ -61,7 +61,7 @@ export default function HeroComponent() {
             </div>
 
             <div
-                className="absolute inset-x-0 -top-40 z-10 transform-gpu overflow-hidden blur-2xl sm:top-[5rem] w-[30rem] h-max"
+                className="absolute inset-x-0 -top-40 z-10 hidden lg:block transform-gpu overflow-hidden blur-2xl sm:top-[5rem] w-[30rem] h-max"
                 aria-hidden="true"
                 >
                 <div
