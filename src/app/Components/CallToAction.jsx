@@ -35,7 +35,7 @@ export default function CallToAction() {
                 </div>
 
             <div className="text-6xl font-extrabold text-center">Ready to get <span className="inline main-gradient">started?</span></div>
-            <div className="font-inter text-lg">Signup on our waitlist so you don't miss our release!</div>
+            <div className="font-inter text-lg">Signup on our waitlist so you dont miss our release!</div>
             
             <div class="mx-auto max-w-xl">
                 <div class="sm:flex sm:gap-4">
