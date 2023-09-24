@@ -3,7 +3,7 @@
 export default function CallToAction() {
     return (
         <>
-            <div className="relative h-[20rem]  flex items-center justify-center flex-col gap-y-4">
+            <div className="relative h-[20rem] flex items-center justify-center flex-col gap-y-4">
                 <div
                     className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden sm:-top-[10rem] blur-3xl w-full h-max"
                     aria-hidden="true"
