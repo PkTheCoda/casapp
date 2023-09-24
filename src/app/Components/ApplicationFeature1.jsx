@@ -50,10 +50,11 @@ export default function ApplicationFeature1() {
 
             <div className="py-20 flex justify-center items-center ">
                 <div className="w-[70%] h-max flex-col lg:flex-row flex relative">
-                        <Image 
+                    
+                        {/* <Image 
                             src={bgradientblob1}
                             className='absolute -z-10 w-80 left-40 h-auto blur-3xl'
-                        />
+                        /> */}
 
                     <div className='lg:w-1/2 flex items-center'>
                         <Image 
