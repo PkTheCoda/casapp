@@ -38,10 +38,6 @@ const colorTextClasses = {
     purple: "text-purple-500",
     pink: "text-pink-500",
 };
-
-import ibdpprogramlogo from '../Images/ibdpprogramlogo.png'
-import ibmyplogopic from '../Images/ibmyplogopic.png'
-import ibprogramfulllogo from '../Images/ibprogramfulllogo.png'
   
 
 

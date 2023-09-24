@@ -55,7 +55,7 @@ export default function HeroComponent() {
                     <Image 
                             src={dashboard}
                             className='w-auto h-auto t-0'
-                            alt="Test"
+                            alt="Mock Dashboard of Stella"
                     />
                 </div>
             </div>

@@ -45,6 +45,7 @@ export default function ApplicationFeature1() {
                             <Image
                                 src={applications}
                                 className='w-max h-auto'
+                                alt="Image showing a clipart of an application"
                             />
                         </div>
                     </div>
@@ -56,6 +57,7 @@ export default function ApplicationFeature1() {
                             <Image
                                 src={search}
                                 className='w-max h-auto p-8'
+                                alt="Image showing a clipart of our search features"
                             />
                         </div>
                         <div className="lg:w-1/2 flex flex-col justify-center gap-y-4 pl-8">

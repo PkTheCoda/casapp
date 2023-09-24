@@ -18,6 +18,7 @@ export default function CasComponent() {
                         <Image 
                             src={casvector1}
                             className='w-4/5 h-auto rounded-lg'
+                            alt="Vector illustration of one of our features"
                         />
                         <div className='w-4/5 flex flex-col gap-y-3'>
                             <div className='font-inter text-white flex items-center gap-x-2'>
@@ -48,6 +49,7 @@ export default function CasComponent() {
                         <Image 
                             src={casvector2}
                             className='w-4/5 h-auto rounded-lg'
+                            alt="Vector illustration of one of our features"
                         />
                         <div className='w-4/5 flex flex-col gap-y-3'>
                             <div className='font-inter text-white flex items-center gap-x-2'>
