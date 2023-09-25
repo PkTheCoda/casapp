@@ -28,7 +28,7 @@ export default function ApplicationFeature1() {
                     </div >
                     <div className="w-full md:w-[70%] h-max flex flex-col lg:flex-row relative">
                         <div className="lg:w-1/2 flex flex-col justify-center gap-y-2 pl-8">
-                            <div className="font-manrope text-5xl flex flex-col gap-y-2 font-extrabold">
+                            <div className="font-manrope text-3xl md:text-4xl lg:text-5xl flex flex-col gap-y-2 font-extrabold">
                                 <div className='bg-gradient-to-bl from-green-300 to-blue-500  w-max p-2 rounded-lg'>
                                     <FaFilter className='h-5 w-5 text-white '/>
                                 </div>
