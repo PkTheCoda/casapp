@@ -1,6 +1,7 @@
 "use client"
 import Image from 'next/image'
 import dashboard from '../Images/dashboardother.svg'
+import dashboardframe1 from '../Images/DashboardFrames/dashboardframe1.svg'
 
 export default function HeroComponent() {
     return (
@@ -54,9 +55,10 @@ export default function HeroComponent() {
                 <div className='flex flex-col items-center'>
                     <Image 
                             src={dashboard}
-                            className='w-auto h-auto t-0'
+                            className='w-auto h-auto pt-10 relative'
                             alt="Mock Dashboard of Stella"
                     />
+
                 </div>
             </div>
 

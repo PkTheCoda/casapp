@@ -17,6 +17,14 @@
     }
 }
 
+.ctacomponentmesh {
+  background-color:hsla(0,0%,100%,1);
+  background-image:
+  radial-gradient(at 18% 53%, hsla(232,100%,77%,1) 0px, transparent 50%),
+  radial-gradient(at 77% 60%, hsla(266,89%,54%,0.67) 0px, transparent 50%),
+  radial-gradient(at 48% 43%, hsla(192,100%,76%,1) 0px, transparent 50%);
+}
+
 .dotted {
     --dot-bg: white;
     --dot-color: black;

@@ -3,9 +3,9 @@
 export default function CallToAction() {
     return (
         <>
-            <div className="relative h-[20rem] flex items-center justify-center flex-col gap-y-4">
+            <div className="relative h-[20rem] flex items-center justify-center flex-col gap-y-4 ">
                 <div
-                    className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden sm:-top-[10rem] blur-3xl w-full h-max"
+                    className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden sm:-top-[5rem] blur-3xl w-full h-max"
                     aria-hidden="true"
                     >
                     <div
@@ -20,7 +20,7 @@ export default function CallToAction() {
                 </div>
 
                 <div
-                    className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden sm:-top-[10rem] blur-3xl w-full h-max"
+                    className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden sm:-top-[5rem] blur-3xl w-full h-max"
                     aria-hidden="true"
                     >
                     <div
@@ -34,8 +34,8 @@ export default function CallToAction() {
                     />
                 </div>
 
-            <div className="text-4xl md:text-5xl lg:text-6xl font-archivo tracking-tight font-extrabold text-center">Ready to get <span className="inline main-gradient">started?</span></div>
-            <div className="font-inter text-lg px-8 text-center lg:px-0">Signup on our waitlist so you dont miss our release!</div>
+            <div className="text-4xl md:text-5xl lg:text-6xl font-manrope tracking-tight font-extrabold text-center">Ready to get <span className="inline main-gradient">started?</span></div>
+            <div className="font-archivo text-lg px-8 text-center lg:px-0">Signup on our waitlist so you dont miss our release!</div>
             
             <div class="mx-auto max-w-xl">
                 <div class="sm:flex sm:gap-4">
@@ -45,13 +45,13 @@ export default function CallToAction() {
                     <input
                         type="email"
                         placeholder="Email address"
-                        class="w-full rounded-md border-gray-200 bg-white p-3 font-inter shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-blue-400"
+                        class="placeholder:font-manrope w-full rounded-md border-gray-200 bg-white p-3 font-inter shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-blue-400"
                     />
                     </div>
 
                     <button
                         type="submit"
-                        class="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-blue-500 font-inter px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-blue-400 sm:mt-0 sm:w-auto"
+                        class="group mt-4 flex w-full items-center justify-center gap-2 rounded-md bg-blue-500 font-manrope px-5 py-3 text-white transition focus:outline-none focus:ring focus:ring-blue-400 sm:mt-0 sm:w-auto"
                     >
                     <span class="text-sm font-medium">Sign Up</span>
 
