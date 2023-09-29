@@ -3,8 +3,9 @@
 export default function CallToAction() {
     return (
         <>
-            <div className="relative h-[20rem] flex items-center justify-center flex-col gap-y-4 ">
-                <div
+            <div className="relative h-[20rem] flex items-center justify-center flex-col gap-y-4 square-pattern">
+
+            {/* <div
                     className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden sm:-top-[5rem] blur-3xl w-full h-max"
                     aria-hidden="true"
                     >
@@ -32,20 +33,21 @@ export default function CallToAction() {
                         }}
                         
                     />
-                </div>
+                </div> */}
+                
 
-            <div className="text-4xl md:text-5xl lg:text-6xl font-manrope tracking-tight font-extrabold text-center">Ready to get <span className="inline main-gradient">started?</span></div>
+            <div className="text-4xl md:text-5xl lg:text-6xl font-manrope font-extrabold text-center">Ready to get <span className="inline main-gradient">started?</span></div>
             <div className="font-archivo text-lg px-8 text-center lg:px-0">Signup on our waitlist so you dont miss our release!</div>
             
             <div class="mx-auto max-w-xl">
                 <div class="sm:flex sm:gap-4">
-                    <div class="sm:flex-1">
+                    <div class="sm:flex-1 border-2 border-slate-200 rounded-md">
                     <label for="email" class="sr-only">Email</label>
 
                     <input
                         type="email"
                         placeholder="Email address"
-                        class="placeholder:font-manrope w-full rounded-md border-gray-200 bg-white p-3 font-inter shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-blue-400"
+                        class="placeholder:font-manrope w-full rounded-md border-gray-900 bg-white p-3 font-inter shadow-sm transition focus:border-white focus:outline-none focus:ring focus:ring-blue-400"
                     />
                     </div>
 
@@ -72,6 +74,7 @@ export default function CallToAction() {
                     </button>
                 </div>
                 </div>
+                <div>Hi</div>
             </div>
         </>
     )
