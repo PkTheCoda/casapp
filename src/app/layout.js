@@ -25,7 +25,7 @@ const manrope = Manrope({
 })
 
 export const metadata = {
-  title: 'Volunteer opportunities made accessible',
+  title: 'Stella - Making Volunteer opportunities accessible',
   description: 'Reducing the opportunity disparity between schools and organizations/businesses',
 }
 
