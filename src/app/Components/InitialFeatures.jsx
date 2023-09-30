@@ -93,10 +93,11 @@ export default function Features() {
                 Packed &
                 <div>
                   <span class="highlight-container">
-                    <span class="highlight">
-                      Full of Features
+                    <span class="highlight mr-4">
+                      Full of
                     </span>
                   </span>
+                  Features
                 </div> 
             </div>
             <p className="text-md text-gray-600 mb-12 font-archivo pt-4 ">

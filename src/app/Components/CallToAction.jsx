@@ -74,7 +74,6 @@ export default function CallToAction() {
                     </button>
                 </div>
                 </div>
-                <div>Hi</div>
             </div>
         </>
     )
