@@ -1,3 +1,4 @@
+import stellahomepagepic from '../app/Images/stellahomepagepic.png'
 import './globals.css'
 import { Outfit } from "next/font/google"
 import { Inter } from "next/font/google"
@@ -27,6 +28,9 @@ const manrope = Manrope({
 export const metadata = {
   title: 'Stella - Making Volunteer opportunities accessible',
   description: 'Reducing the opportunity disparity between schools and organizations/businesses',
+  image: stellahomepagepic
+
+  
 }
 
 export default function RootLayout({ children }) {
