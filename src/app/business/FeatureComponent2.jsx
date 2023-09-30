@@ -32,7 +32,7 @@ export default function FeatureComponent2() {
     return (
         <>
             <div className="h-max flex items-center square-pattern">
-                <div className="mx-60 w-full flex flex-col gap-y-12 my-20">
+                <div className="mx-0 md:mx-20 lg:mx-60 w-full flex flex-col gap-y-12 my-20">
 
                     <div className="w-max flex flex-col gap-y-4">
                         <h1 className="font-sans font-semibold text-6xl">View and Accept Instantly.</h1>
@@ -42,9 +42,9 @@ export default function FeatureComponent2() {
                         </p>
                     </div>
 
-                    <div className="h-max flex">
+                    <div className="h-max flex flex-col lg:flex-row lg:gap-y-0 gap-y-8">
                         {feature2list.map((feature) => (
-                            <div key={feature.id} className='w-1/3'>
+                            <div key={feature.id} className='w-full lg:w-1/3'>
                                 <feature.icon className='h-8 w-auto text-blue-500'/>
                                 <div className='font-sans font-semibold text-2xl py-2'>{feature.title}</div>
                                 <p className='text-lg leading-6 text-[#828282] font-sans pr-8'>{feature.subtitle}</p>
