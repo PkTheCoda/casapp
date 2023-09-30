@@ -7,6 +7,10 @@
         @apply bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-purple-500 via-sky-500 to-blue-700 text-transparent inline bg-clip-text
     }
 
+    .grow-gradient {
+      @apply bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-teal-300 via-emerald-400 to-green-600 text-transparent inline bg-clip-text
+  }
+
     .meshgradientbluepurple {
         @apply bg-[#ff99d1] bg-[radial-gradient(at_58%_40%,hsla(246,77%,77%,1)_0px,transparent_50%),radial-gradient(at_19%_5%,hsla(228,90%,69%,1)_0px,transparent_50%),radial-gradient(at_25%_2%,hsla(154,87%,74%,1)_0px,transparent_50%),radial-gradient(at_28%_52%,hsla(192,74%,79%,1)_0px,transparent_50%),radial-gradient(at_33%_93%,hsla(237,82%,72%,1)_0px,transparent_50%),radial-gradient(at_41%_75%,hsla(219,84%,74%,1)_0px,transparent_50%),radial-gradient(at_8%_79%,hsla(276,75%,67%,1)_0px,transparent_50%)];
     }

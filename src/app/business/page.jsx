@@ -1,22 +1,26 @@
 import Header from '../Components/Header'
+import FeatureComponent1 from './FeatureComponent1'
+import FeatureComponent2 from './FeatureComponent2'
+import BusinessCta from './BusinessCta'
 
 
 export default function BusinessPage() {
     return (
         <>
             <Header />
-            <div className='pb-20 relative square-pattern '>
+            <div className='py-20 relative square-pattern'>
                 <div className="pt-16 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center z-40 bg-transparent">
-                    <div className="max-w-7xl mx-auto text-center flex flex-col items-center justify-center gap-y-2 relative">
+                    <div className="max-w-7xl mx-auto text-center flex flex-col items-center justify-center gap-y-4 relative">
 
                         <div>
-                            <h1 className="text-4xl font-extrabold font-manrope tracking-tighter text-black md:text-6xl">
-                                Stella makes finding volunteer <br/> opportunities <span className='main-gradient'>easy and accessible</span>
+                            <h1 className="text-4xl font-extrabold font-manrope tracking-tighter text-black md:text-7xl">
+                                <span className="main-gradient">Supercharge</span> and <span className="grow-gradient">Grow </span> <br />
+                                your business easily.
                             </h1>
                         </div>
 
-                        <p className="md:mt-6 text-base md:text-lg leading-8 font-inter">
-                        Find the perfect volunteer opportunities in <b className='main-gradient'>minutes, not days.</b> <br /> The ultimate site for finding and getting volunteer hours.
+                        <p className="text-base md:text-lg leading-8 font-inter w-[70%]">
+                            Stella makes finding volunteers for your business a piece of cake 🎂
                         </p>
 
                         <div>
@@ -42,15 +46,19 @@ export default function BusinessPage() {
                                 </span>
 
                                 <span class="font-inter transition-all group-hover:ms-4">
-                                    Start Volunteering
+                                    Start Hiring Now
                                 </span>
                             </a>
-                            <p className="mt-3 text-xs font-inter">No Payment required*</p>
                         </div>
                     </div>
 
                 </div>
+
             </div>
+
+            <FeatureComponent1 />
+            <FeatureComponent2 />
+            <BusinessCta />
 
             <div
                 className="absolute inset-x-0 -top-40 z-10 hidden lg:block transform-gpu overflow-hidden blur-2xl sm:top-[5rem] w-[30rem] h-max"
