@@ -32,10 +32,10 @@ export default function FeatureComponent2() {
     return (
         <>
             <div className="h-max flex items-center square-pattern">
-                <div className="mx-0 md:mx-20 lg:mx-60 w-full flex flex-col gap-y-12 my-20">
+                <div className="mx-4 md:mx-20 lg:mx-60 w-full flex flex-col gap-y-12 my-20">
 
                     <div className="w-max flex flex-col gap-y-4">
-                        <h1 className="font-sans font-semibold text-6xl">View and Accept Instantly.</h1>
+                        <h1 className="font-sans font-semibold text-4xl md:text-5xl lg:text-6xl">View and Accept Instantly.</h1>
                         <p className="text-slate-600 text-2xl">
                             Manage, edit, and accept applications <br /> in a breeze with Stella.
                             <span className="text-blue-500 hover:underline pl-4 cursor-pointer" onClick={() => alert("Coming Soon")}>Learn more.</span>
