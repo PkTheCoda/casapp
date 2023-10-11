@@ -41,7 +41,7 @@ export default function StepComponent() {
             <span className="block main-gradient">One, Two, Three</span>
           </h2>
           <p className="text-base text-gray-700 md:text-lg">
-            Get started with finding the perfect opportunities <b>easily and quickly.</b> It's as quick as signing up, finding the perfect opportunity, and applying!
+            Get started with finding the perfect opportunities <b>easily and quickly.</b> It&apos;s as quick as signing up, finding the perfect opportunity, and applying!
           </p>
         </div>
         <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-3 sm:grid-cols-2">
@@ -68,7 +68,7 @@ export default function StepComponent() {
               </p>
             </div>
             <p className="text-md text-gray-900 tracking-wide">
-              Found the perfect volunteering opportunity? Sending an application is as simple as answering a few questions and sending in your resume. Once you've applied to a certain position, you'll your application status and more easily organized - in your dashboard.
+              Found the perfect volunteering opportunity? Sending an application is as simple as answering a few questions and sending in your resume. Once you&apos;ve applied to a certain position, you&apos;ll your application status and more easily organized - in your dashboard.
             </p>
           </div>
 
