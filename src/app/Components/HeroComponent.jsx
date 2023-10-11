@@ -8,7 +8,7 @@ export default function HeroComponent() {
         <>
             <div className='pb-20 relative square-pattern '>
                 <div className="pt-16 px-4 sm:px-6 lg:px-8 flex flex-col items-center justify-center z-40 bg-transparent">
-                    <div className="max-w-7xl mx-auto text-center flex flex-col items-center justify-center gap-y-2 relative">
+                    <div className="max-w-7xl mx-auto text-center flex flex-col items-center justify-center gap-y-3 relative">
 
                         <div>
                             <h1 className="text-4xl font-extrabold font-manrope tracking-tighter text-black md:text-6xl">
@@ -16,7 +16,7 @@ export default function HeroComponent() {
                             </h1>
                         </div>
 
-                        <p className="md:mt-6 text-base md:text-lg leading-8 font-inter">
+                        <p className="md:mt-2 text-base md:text-lg leading-8 font-inter">
                         Find the perfect volunteer opportunities in <b className='main-gradient'>minutes, not days.</b> <br /> The ultimate site for finding and getting volunteer hours.
                         </p>
 
@@ -46,7 +46,6 @@ export default function HeroComponent() {
                                     Start Volunteering
                                 </span>
                             </a>
-                            <p className="mt-3 text-xs font-inter">No Payment required*</p>
                         </div>
                     </div>
 
