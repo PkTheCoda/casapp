@@ -1,4 +1,5 @@
 "use client"
+import { CheckIcon } from "@heroicons/react/24/outline";
 
 export default function StepComponent() {
   
@@ -45,7 +46,8 @@ export default function StepComponent() {
         </div>
         <div className="relative grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-3 sm:grid-cols-2">
           <div className="absolute inset-0 flex items-center justify-center sm:hidden lg:flex">
-            <div className="w-px h-full bg-gray-300 lg:w-full lg:h-px" />
+            {/* The line in between the steps component */}
+            <div className="w-2 h-full bg-gray-300 lg:w-full lg:h-px" />
           </div>
           <div className="p-5 duration-300 transform bg-gradient-to-b bg-white border-2 border-dashed border-purple-200 rounded shadow-sm hover:-translate-y-2">
             <div className="flex items-center justify-between mb-2">
@@ -69,7 +71,9 @@ export default function StepComponent() {
               Found the perfect volunteering opportunity? Sending an application is as simple as answering a few questions and sending in your resume. Once you've applied to a certain position, you'll your application status and more easily organized - in your dashboard.
             </p>
           </div>
-          <div className="p-5 duration-300 transform bg-gradient-to-b bg-white border-2 border-purple-600 transition rounded shadow-sm hover:-translate-y-2">
+
+          <div className="relative p-5 duration-300 transform bg-gradient-to-b bg-white border-2 border-purple-600 transition rounded shadow-sm hover:-translate-y-2">
+            <div className="absolute -top-4 -right-4"><CheckIcon className="w-8 h-8 bg-purple-600 rounded-full p-1 text-white"/></div>
             <div className="flex items-center justify-between mb-2">
               <p className="lg:text-xl text-2xl font-manrope font-bold leading-5">Record, Track, Voila</p>
               <p className="flex items-center justify-center w-6 h-6 font-bold rounded text-deep-purple-accent-400 bg-indigo-50">
