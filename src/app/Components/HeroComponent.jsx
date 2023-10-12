@@ -1,7 +1,6 @@
 "use client"
 import Image from 'next/image'
 import dashboard from '../Images/dashboardother.svg'
-import dashboardframe1 from '../Images/DashboardFrames/dashboardframe1.svg'
 
 export default function HeroComponent() {
     return (

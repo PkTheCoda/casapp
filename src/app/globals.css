@@ -23,6 +23,12 @@
       @apply bg-[400%_400%] animate-[gradient_15s_ease_infinite];
       background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     }
+
+    .text-gradient-full {
+      @apply bg-[linear-gradient(55deg,#fa0,#fd66cb_25%,#9f6eff_50%,#0af_75%,#0fa)];
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+    }
 }
 
 .ctacomponentmesh {
@@ -33,13 +39,8 @@
   radial-gradient(at 48% 43%, hsla(192,100%,76%,1) 0px, transparent 50%);
 }
 
-.stepcomponentmesh {
-  background-color:hsla(216,100%,80%,1);
-  background-image:
-  radial-gradient(at 14% 16%, hsla(0,60%,61%,1) 0px, transparent 50%),
-  radial-gradient(at 20% 95%, hsla(280,62%,65%,1) 0px, transparent 50%),
-  radial-gradient(at 30% 44%, hsla(240,67%,55%,1) 0px, transparent 50%),
-  radial-gradient(at 86% 0%, hsla(240,83%,48%,1) 0px, transparent 50%);
+.aboutheromesh {
+  background: #ffffff; background-image: radial-gradient(at 76.3% 41.7%, #1fa1de 0px, transparent 50%),radial-gradient(at 3.5% 80.9%, #1fa1de 0px, transparent 50%),radial-gradient(at 74.9% 86.6%, #bee7fa 0px, transparent 50%),radial-gradient(at 19.8% 29.4%, #bee7fa 0px, transparent 50%)
 }
 
 .dotted {

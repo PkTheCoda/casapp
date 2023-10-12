@@ -58,7 +58,7 @@ export default function FeatureComponent2() {
                     />
 
                     <p className='font-sans text-lg text-center text-slate-600'>Need Help? <span className='cursor-pointer hover:underline'>Contact us</span></p>
-
+                    
 
                 </div>
             </div>
