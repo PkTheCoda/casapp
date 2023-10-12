@@ -44,7 +44,7 @@ export default function AboutPage() {
                         </span>{' '}
                         </h2>
                         <p className="text-base text-gray-700 md:text-lg">
-                            Our Mission is to bridge the gap between Education and Opportunity, and Empower Every Volunteer's Journey.
+                            Our Mission is to bridge the gap between Education and Opportunity, and Empower Every Volunteer&apos;s Journey.
                         </p>
                     </div>
                     </div>
