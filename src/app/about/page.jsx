@@ -68,8 +68,8 @@ export default function AboutPage() {
                             />
                         </svg>
                         </div>
-                        <p className="font-bold tracking-wide text-gray-800">
-                        Make it better
+                        <p className="font-bold font-manrope tracking-wide text-gray-800">
+                        <span className='text-red-600'>Connecting</span> Students with Businesses
                         </p>
                     </div>
                     <div className="inline-block p-8 text-center">
@@ -88,8 +88,8 @@ export default function AboutPage() {
                             />
                         </svg>
                         </div>
-                        <p className="font-bold tracking-wide text-gray-800">
-                        Do it faster
+                        <p className="font-bold font-manrope tracking-wide text-gray-800">
+                        Starting Initiatives Made <span className='text-green-600'>Easy.</span>
                         </p>
                     </div>
                     <div className="inline-block p-8 text-center">
@@ -108,8 +108,8 @@ export default function AboutPage() {
                             />
                         </svg>
                         </div>
-                        <p className="font-bold tracking-wide text-gray-800">
-                        Working harder
+                        <p className="font-bold font-manrope tracking-wide text-gray-800">
+                        Growing a Business made <span className='text-yellow-600'>Fast.</span>
                         </p>
                     </div>
                     
