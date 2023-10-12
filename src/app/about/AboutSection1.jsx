@@ -25,7 +25,7 @@ export default function AboutSection2() {
         <>
             <div className="h-max flex flex-col items-center justify-center py-20">
                 <div className="text-4xl lg:text-5xl font-manrope font-extrabold text-center">
-                    What's <span className="text-gradient-full">The Problem?</span>
+                    What&apos;s <span className="text-gradient-full">The Problem?</span>
                 </div>
                 
                 <div className="text-center text-gray-500 font-sans text-lg mt-4 px-[20%]">
