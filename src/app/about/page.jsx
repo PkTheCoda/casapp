@@ -1,6 +1,7 @@
 "use client"
 import AboutSection2 from './AboutSection1'
 import Header from '../Components/Header'
+import AboutContact from './AboutContact'
 
 export default function AboutPage() {
     return (
@@ -119,6 +120,7 @@ export default function AboutPage() {
                 </div>
             </div>
             <AboutSection2 />
+            <AboutContact />
 
         </>
     )

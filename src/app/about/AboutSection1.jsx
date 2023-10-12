@@ -1,5 +1,7 @@
 "use client"
+import Image from 'next/image';
 import { BsFillExclamationOctagonFill, BsFillQuestionCircleFill, BsFillChatFill } from 'react-icons/bs';
+import abouthelp from '../Images/abouthelp.png'
 
 export default function AboutSection2() {
 
@@ -23,7 +25,7 @@ export default function AboutSection2() {
 
     return (
         <>
-            <div className="h-max flex flex-col items-center justify-center py-40">
+            <div className="h-max flex flex-col items-center justify-center pt-40">
                 <div className="text-4xl lg:text-5xl font-manrope font-extrabold text-center">
                     What&apos;s <span className="text-gradient-full">The Problem?</span>
                 </div>
@@ -174,9 +176,9 @@ export default function AboutSection2() {
                         </div>
                         </div>
                         <div>
-                        <img
-                            className="object-cover w-full h-56 rounded shadow-lg sm:h-96"
-                            src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+                        <Image
+                            className="object-cover w-full h-56sm:h-96"
+                            src={abouthelp}
                             alt=""
                         />
                         </div>
