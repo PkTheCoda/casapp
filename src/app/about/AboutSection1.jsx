@@ -13,7 +13,7 @@ export default function AboutSection2() {
         },
         {
           title: "30%",
-          description: "Limiting their capacity to engage in community initiatives.",
+          description: "Fail because of a lack of information and access.",
           icon: <BsFillQuestionCircleFill size={40} className="text-green-500" />,
         },
         {
@@ -31,7 +31,7 @@ export default function AboutSection2() {
                 </div>
                 
                 <div className="text-center text-gray-500 font-sans text-lg mt-4 px-[20%]">
-                    There is no <b className='italic'>standardized and fast</b> way of finding volunteer opportunities for students.
+                    CAS <b className='italic'>needs</b> to be meaningful and engaging again.
                 </div>
 
                 <div className="flex flex-wrap justify-center">

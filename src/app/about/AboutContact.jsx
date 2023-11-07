@@ -7,16 +7,13 @@ export default function AboutContact() {
           <div className="text-center">
             <div className="max-w-xl mb-4 md:mx-auto sm:text-center lg:max-w-2xl md:mb-4">
               <div>
-                {/* <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
-                  Brand new
-                </p> */}
               </div>
-              <h2 className="max-w-lg pb-4 font-manrope text-3xl font-extrabold leading-none text-gray-900 sm:text-5xl md:mx-auto">
+              <h2 className="max-w-xl pb-4 font-manrope text-3xl font-extrabold leading-none text-gray-900 sm:text-5xl md:mx-auto">
                 <span className="relative inline-block">
                   <svg
                     viewBox="0 0 52 24"
                     fill="currentColor"
-                    className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+                    className="absolute top-0 left-10 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
                   >
                     <defs>
                       <pattern
@@ -36,7 +33,7 @@ export default function AboutContact() {
                     />
                   </svg>
                 </span>{' '}
-                Join the <br /><span className="text-gradient-full">Next Big Thing</span>
+                Failing is not an option <br /><span className="text-gradient-full">Anywhere</span>
               </h2>
               <p className="text-base text-gray-700 md:text-xl">
                 Sign up for our waitlist and join the next big platform - one dedicated to making student and business life easier.
